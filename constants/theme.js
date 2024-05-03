@@ -15,3 +15,14 @@ export const SIZES = {
   width,
   height,
 };
+
+export const DEFAULT_VALUE = {
+  gender: "male",
+  height: 160,
+  weight: 60,
+  age: 20,
+};
+export const MIN_WEIGHT = 10;
+export const MAX_WEIGHT = 150;
+export const MIN_AGE = 1;
+export const MAX_AGE = 150;

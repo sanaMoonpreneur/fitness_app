@@ -112,7 +112,7 @@ const HomeScreen = ({navigation}) => {
             </View>
 
             <View style={{flexDirection:'row'}}>
-            <TouchableOpacity onPress={()=>router.push('calendar')}
+            <TouchableOpacity onPress={()=>router.push('bmi')}
               style={{width:wp(44),height:wp(48),}}
               className="flex justify-end p-4 m-4 mt-0"
             >
@@ -130,7 +130,7 @@ const HomeScreen = ({navigation}) => {
              className="absolute bottom-0 rounded-b-[35px]"
              />
              <Text style={{fontSize:hp(2.3),color:'#EDEDED'}} className=" font-semibold text-center tracking-wide">
-                Calendar
+                BMI Calculator
              </Text>
             </TouchableOpacity>
 
